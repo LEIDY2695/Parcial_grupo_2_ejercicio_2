@@ -1,8 +1,9 @@
-#Calcular la distancia entre dos puntos en el plano cartesiano
-import math
+
 #Pedir al usuario las coordenadas de los dos puntos
 x1 = int(input())
 y1 = int(input())
 x2 = int(input())
 y2 = int(input())
 
+d = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
+print(d)
