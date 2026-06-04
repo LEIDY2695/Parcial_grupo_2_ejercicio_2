@@ -11,5 +11,5 @@ x2 = int(input())
 y2 = int(input())
 
 d = ((x2 - x1)**2 + (y2 - y1)**2)**0.5
-print(f"distance={d:.2f}")
+print(f"distancia={d:.2f}")
 
